@@ -263,7 +263,7 @@ class _Add_ScreenState extends State<loan_Screen> {
         focusNode: ex,
         controller: expalin_C,
         decoration: InputDecoration(
-          contentPadding: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
+          contentPadding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
           labelText: 'Duration in Months',
           labelStyle: TextStyle(fontSize: 17, color: Colors.grey.shade500),
           enabledBorder: OutlineInputBorder(
@@ -326,19 +326,19 @@ class _Add_ScreenState extends State<loan_Screen> {
                             MaterialPageRoute(builder: (context) => Home()));
                         // Navigator.of(context).pop();
                       },
-                      child: Icon(Icons.arrow_back, color: Colors.white),
+                      // child: Icon(Icons.arrow_back, color: Colors.white),
                     ),
                     Text(
                       'Student Loan',
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 26,
                           fontWeight: FontWeight.w600,
                           color: Colors.white),
                     ),
-                    Icon(
-                      Icons.attach_file_outlined,
-                      color: Colors.white,
-                    )
+                    // Icon(
+                    //   Icons.attach_file_outlined,
+                    //   color: Colors.white,
+                    // )
                   ],
                 ),
               )

@@ -21,7 +21,7 @@ class ProfilePage extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              'John Doe',
+              'Aditya',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
@@ -29,7 +29,7 @@ class ProfilePage extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              'Software Engineer',
+              'aditya@gmail.com',
               style: TextStyle(
                 fontSize: 18,
                 color: Colors.grey[600],
@@ -57,7 +57,7 @@ class ProfilePage extends StatelessWidget {
                         ),
                         SizedBox(height: 5),
                         Text(
-                          '\$ ${income()}',
+                          '\₹ ${income()}',
                           style: TextStyle(
                             fontSize: 16,
                             color: Colors.grey[600],
@@ -76,7 +76,7 @@ class ProfilePage extends StatelessWidget {
                         ),
                         SizedBox(height: 5),
                         Text(
-                          '\$ ${total()}',
+                          '\₹ ${total()}',
                           style: TextStyle(
                             fontSize: 16,
                             color: Colors.grey[600],
@@ -95,7 +95,7 @@ class ProfilePage extends StatelessWidget {
                         ),
                         SizedBox(height: 5),
                         Text(
-                          '\$ ${total()}',
+                          '\₹ ${total()}',
                           style: TextStyle(
                             fontSize: 16,
                             color: Colors.grey[600],

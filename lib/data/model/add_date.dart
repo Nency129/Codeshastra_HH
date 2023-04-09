@@ -15,3 +15,18 @@ class Add_data extends HiveObject {
   DateTime datetime;
   Add_data(this.IN, this.amount, this.datetime, this.explain, this.name);
 }
+
+// @HiveType(typeId: 2)
+// class loan_data extends HiveObject {
+//   @HiveField(0)
+//   String product;
+//   @HiveField(1)
+//   String totalamt;
+//   @HiveField(2)
+//   String paidamt;
+//   @HiveField(3)
+//   String IN;
+//   // @HiveField(4)
+//   // DateTime datetime;
+//   // loan_data(this.IN, this.amount, this.datetime, this.explain, this.name);
+// }
