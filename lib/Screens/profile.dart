@@ -7,8 +7,8 @@ class ProfilePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Profile'),
-        shadowColor: Colors.green,
-        backgroundColor: Colors.green,
+        shadowColor: Color.fromARGB(255, 47, 125, 121),
+        backgroundColor: Color.fromARGB(255, 47, 125, 121),
       ),
       body: Center(
         child: Column(
@@ -16,8 +16,7 @@ class ProfilePage extends StatelessWidget {
           children: <Widget>[
             CircleAvatar(
               radius: 60,
-              backgroundImage: NetworkImage(
-                  'https://i.pravatar.cc/150?img=3'),
+              backgroundColor: Colors.grey,
             ),
             SizedBox(height: 10),
             Text(
